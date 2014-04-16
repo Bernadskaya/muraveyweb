@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77ac74db-4526-45c2-aea4-c0e383939cc4" name="Default" comment="" />
+    <ignored path="ant.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ant" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FrontendBuilder.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="58" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.33582088" vertical-offset="510" max-vertical-offset="1410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="584" column="1" selection-start="10217" selection-end="10217" vertical-scroll-proportion="0.0" vertical-offset="8614" max-vertical-offset="44985">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="4" selection-start="4311" selection-end="4344" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="5475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="40" selection-start="2912" selection-end="2912" vertical-scroll-proportion="-19.125" vertical-offset="501" max-vertical-offset="1305">
+              <folding>
+                <marker date="1396353070000" expanded="true" signature="1290:1539" placeholder="..." />
+                <marker date="1396353070000" expanded="true" signature="1640:2451" placeholder="..." />
+                <marker date="1396353070000" expanded="true" signature="1676:2433" placeholder="..." />
+                <marker date="1396353070000" expanded="true" signature="1721:2200" placeholder="..." />
+                <marker date="1396353070000" expanded="true" signature="1840:2104" placeholder="..." />
+                <marker date="1396353070000" expanded="true" signature="2273:2414" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.hoverdir.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/jquery.hoverdir.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="192" column="36" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="3405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/WebBundle.php" />
+        <option value="$PROJECT_DIR$/src/Web/MediaBundle/WebMediaBundle.php" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Entity/Ad.php" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Entity/News.php" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/config/doctrine/Ad.orm.xml" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/config/doctrine/News.orm.xml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/vendor/ant/mediabundle/Ant/MediaBundle/Resources/views/Form/media_widgets.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/config/ant_config.yml" />
+        <option value="$PROJECT_DIR$/vendor/ant/mediabundle/Ant/MediaBundle/Resources/views/Gallery/index.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/views/Ad/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/index.html" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/theme.js" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/config/doctrine/Ad.orm.xml" />
+        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/translations/AntWebBundle.ru.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/thumb.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/single-project-gallery.html" />
+        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/view.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/page.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/pricing-tables.html" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/custom.js" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Page/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/webModules.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_four.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/modules.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/elements.html" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_three.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="598" />
+    <option name="y" value="22" />
+    <option name="width" value="1660" />
+    <option name="height" value="951" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sonia_liip" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/config" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Entity" />
+      <recent name="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/ie" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/ie" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/isotope" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/Web/Bundle/Resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77ac74db-4526-45c2-aea4-c0e383939cc4" name="Default" comment="" />
+      <created>1394868357074</created>
+      <updated>1394868357074</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="598" y="22" width="1660" height="951" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28975904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44042057" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="43" selection-start="713" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/WebBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="37" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/views/Ad/id_one.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Menu/FrontendBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="62" selection-start="7158" selection-end="7166" vertical-scroll-proportion="0.0" vertical-offset="2480" max-vertical-offset="3285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Page/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="54" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="3931" selection-end="3931" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="26" selection-start="1606" selection-end="1656" vertical-scroll-proportion="0.48143405" vertical-offset="149" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/colors/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="949" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/WebMediaBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.08314856" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="286" selection-end="286" vertical-scroll-proportion="0.2238806" vertical-offset="0" max-vertical-offset="737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/single-project-slider-full-width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="17" selection-start="8545" selection-end="8860" vertical-scroll-proportion="0.0" vertical-offset="3098" max-vertical-offset="6435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/single-project-gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="0" selection-start="4993" selection-end="5240" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="6420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/pricing-tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="0" selection-start="13859" selection-end="13859" vertical-scroll-proportion="-4.5" vertical-offset="3402" max-vertical-offset="6300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="69" selection-end="367" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/isotope/isotope.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="0.2795031" vertical-offset="0" max-vertical-offset="12720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/modules.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="67" selection-start="547" selection-end="547" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="4" selection-start="3197" selection-end="3197" vertical-scroll-proportion="-43.75" vertical-offset="0" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="863" column="0" selection-start="39751" selection-end="40401" vertical-scroll-proportion="-25.166666" vertical-offset="2651" max-vertical-offset="3540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="366" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="99" selection-start="5208" selection-end="5208" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="9165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_four.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="59" selection-start="523" selection-end="523" vertical-scroll-proportion="0.24253732" vertical-offset="0" max-vertical-offset="804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_three.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="40" selection-end="40" vertical-scroll-proportion="0.018656716" vertical-offset="0" max-vertical-offset="804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="298" selection-end="298" vertical-scroll-proportion="-2.25" vertical-offset="96" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="404" selection-end="404" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="65" selection-start="399" selection-end="399" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/thumb.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="573" selection-end="573" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/WebBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.26888603" vertical-offset="0" max-vertical-offset="781" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="43" selection-start="713" selection-end="716" vertical-scroll-proportion="0.32173914" vertical-offset="251" max-vertical-offset="1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="253" selection-end="253" vertical-scroll-proportion="0.16304348" vertical-offset="0" max-vertical-offset="828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/views/Ad/id_one.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="702" selection-end="702" vertical-scroll-proportion="0.29850745" vertical-offset="0" max-vertical-offset="804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Menu/FrontendBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="62" selection-start="7158" selection-end="7166" vertical-scroll-proportion="0.6195652" vertical-offset="2457" max-vertical-offset="3285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="562" selection-end="562" vertical-scroll-proportion="0.27985075" vertical-offset="0" max-vertical-offset="804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Page/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="54" selection-start="665" selection-end="665" vertical-scroll-proportion="0.31716418" vertical-offset="0" max-vertical-offset="804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="584" column="1" selection-start="10217" selection-end="10217" vertical-scroll-proportion="0.0" vertical-offset="8614" max-vertical-offset="44985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/jquery.hoverdir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="36" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="3405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="4" selection-start="4311" selection-end="4344" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="5475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="40" selection-start="2912" selection-end="2912" vertical-scroll-proportion="-19.125" vertical-offset="501" max-vertical-offset="1305">
+          <folding>
+            <marker date="1396353070000" expanded="true" signature="1290:1539" placeholder="..." />
+            <marker date="1396353070000" expanded="true" signature="1640:2451" placeholder="..." />
+            <marker date="1396353070000" expanded="true" signature="1676:2433" placeholder="..." />
+            <marker date="1396353070000" expanded="true" signature="1721:2200" placeholder="..." />
+            <marker date="1396353070000" expanded="true" signature="1840:2104" placeholder="..." />
+            <marker date="1396353070000" expanded="true" signature="2273:2414" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="58" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.33582088" vertical-offset="510" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

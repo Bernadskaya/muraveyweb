@@ -1,0 +1,30 @@
+<!-- Services -->
+<div class="section-large">
+    {% for entity in entities if entity.getAdGroup.id == '3'  %}
+        {% if loop.first %}
+            <h3 class="hr2 text-center margin-base"><span>{{ entity.getAdGroup.title }}</span></h3>
+        {% endif %}
+    {% endfor %}
+    <div class="row">
+        <div class="portfolio columns3">
+            {% for entity in entities  %}
+                {% if entity.getAdGroup.id == '3'  %}
+                    <div class="divider col-xs-12 col-sm-6 col-md-4">
+                        <a href="">
+                            {% if entity.getMedia %}
+                                <img src="{% path entity.getMedia, 'small' %}">
+                            {% endif %}
+                            <h2> {{ entity.title }}</h2>
+                                <span class="portfolio-item-content">
+                                    <span class="body">
+                                        {{ entity.text|raw('html') }}
+                                    </span>
+                                </span>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+    <!-- /Services -->

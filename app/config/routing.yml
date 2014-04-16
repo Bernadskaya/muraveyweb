@@ -1,0 +1,19 @@
+sonata_media:
+    resource: "@WebMediaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+web:
+    resource: "@WebBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tarifs:
+    pattern:  /tarifs
+    defaults: { _controller: "AntWebBundle:Page:show", id: "1" }
+
+services:
+    pattern:  /services
+    defaults: { _controller: "AntWebBundle:Page:show", id: "2" }
+
+webmodules:
+    pattern: /webmodules
+    defaults: { _controller: "AntWebBundle:Ad:listOneGroup", id:"7", adGroupTemplate:"WebBundle:Ad:modules.html.twig"}

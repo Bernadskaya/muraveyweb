@@ -1,0 +1,7 @@
+parameters:
+#    web_media.example.class: Web\MediaBundle\Example
+
+services:
+#    web_media.example:
+#        class: %web_media.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

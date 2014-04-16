@@ -1,0 +1,16 @@
+<div class="row" id="portfolio">
+    <h3 class="hr2 text-center margin-bottom-large"><span>Как это выглядит?</span></h3>
+</div>
+<div class="project-single-more row">
+<ul>
+    {% for gallery in galleries %}
+        <li class="col-sm-3">
+            <a href="{{ url('sonata_media_gallery_view', {'id' : gallery|sonata_urlsafeid }) }}">
+                {{ render(controller('AntMediaBundle:Gallery:thumb', { 'id': gallery|sonata_urlsafeid } )) }}
+            </a>
+            <h6 class="header">{{ gallery.name }}</h6>
+        </li>
+    {% endfor %}
+</ul>
+</div>
+

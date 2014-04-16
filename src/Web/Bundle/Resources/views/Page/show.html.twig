@@ -1,0 +1,21 @@
+{% extends 'AntWebBundle::layout.html.twig' %}
+{% block metakeywords %}
+    <meta name="keywords" content="{{ entity.metaKey }}">
+    <meta name="description" content="{{ entity.metaDesc }}">
+{% endblock %}
+{% block content %}
+    <div class="page-top">
+        <div class="container">
+            <h1 class="page-top-header">{{ entity.title }}</h1>
+            <ol class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li class="active">{{ entity.title }}</li>
+            </ol>
+        </div>
+    </div>
+    <div class="container" id="main">
+        <div class="section-base">
+            <div>{{ entity.text | raw('html') }}</div>
+        </div>
+    </div>
+{% endblock %}

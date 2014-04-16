@@ -1,0 +1,14 @@
+{% extends 'AntWebBundle::layout.html.twig' %}
+{% block content %}
+        {{ include('AntWebBundle:Ad:id_one.html.twig') }}
+        <div class="container" id="main">
+            {{ include('AntWebBundle:Ad:id_five.html.twig') }}
+        {{ include('AntWebBundle:Ad:id_two.html.twig') }}
+        {{ include('AntWebBundle:Ad:id_three.html.twig') }}
+        {{ render(controller('AntMediaBundle:Gallery:index')) }}
+
+        <div class="row">
+            <a href="" class="btn btn-primary btn-lg center-block">Отправить заявку</a>
+        </div>
+    </div>
+{% endblock %}

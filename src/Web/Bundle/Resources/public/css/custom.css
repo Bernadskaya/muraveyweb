@@ -1,0 +1,77 @@
+/* Add all your custom styles to this stylesheet. Don't edit "styles.less" or "styles.css", as it will be overridden by future updates.
+-------------------------*/
+
+.ad-striped  {
+    margin-bottom: 10px;
+    list-style-type: none;
+
+}
+
+.ad-striped > li:nth-child(even) div {
+    background-color: #E9F3D9;
+
+}
+.ad-striped > li:nth-child(even) div div.img {
+    float: right;
+    margin: 0;
+}
+.ad-striped > li:nth-child(even) div div.img img{
+    text-align: right;
+    margin: 0;
+}
+
+.ad-striped > li div div.img {
+    text-align: center;
+    margin: 0;
+    padding: 45px;
+}
+
+.ad-striped > li:nth-child(even) div div.a {
+    float: left;
+    margin: 0;
+    padding: 45px;
+}
+
+.ad-striped > li:nth-child(odd) div div.img {
+    float: left;
+    margin: 0;
+}
+
+.ad-striped > li:nth-child(odd) div div.a {
+    float: right;
+    margin: 0;
+    padding: 45px;
+}
+
+
+.hexagon span.mask {
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: 2;
+    background: url("../../bundles/web/img/carousel.png") no-repeat;
+    -webkit-transition:-webkit-transform 300ms ease-out;
+    -moz-transition:-moz-transform 300ms ease-out;
+    -o-transition:-o-transform 300ms ease-out;
+    transition:transform 300ms ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.ant-slide-1 {
+    bottom: 0;
+    left: 0;
+    right: auto;
+    height: 100%;
+}
+
+.ant-carousel {
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+.ant-ad {
+    bottom: 40%;
+    right: 10%;
+}

@@ -1,0 +1,44 @@
+/* Add all your custom styles to this stylesheet. Don't edit "styles.less" or "styles.css", as it will be overridden by future updates.
+-------------------------*/
+
+.ad-striped  {
+    margin-bottom: 10px;
+    list-style-type: none;
+
+}
+
+.ad-striped > li:nth-child(even) div {
+    background-color: #E9F3D9;
+
+}
+.ad-striped > li:nth-child(even) div div.img {
+    float: right;
+    margin: 0;
+}
+.ad-striped > li:nth-child(even) div div.img img{
+    text-align: right;
+    margin: 0;
+}
+
+.ad-striped > li div div.img {
+    text-align: center;
+    margin: 0;
+    padding: 45px;
+}
+
+.ad-striped > li:nth-child(even) div div.a {
+    float: left;
+    margin: 0;
+    padding: 45px;
+}
+
+.ad-striped > li:nth-child(odd) div div.img {
+    float: left;
+    margin: 0;
+}
+
+.ad-striped > li:nth-child(odd) div div.a {
+    float: right;
+    margin: 0;
+    padding: 45px;
+}
