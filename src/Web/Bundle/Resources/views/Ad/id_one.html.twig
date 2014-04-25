@@ -6,45 +6,37 @@
             {% if entity.getAdGroup.id == '1'  %}
                 {% if loop.first %}
                     <div class="item active">
-                        <img src="{{ asset('bundles/web/img/carousel_big.jpg') }}" class="animated fadeIn 050s" alt="" />
+                        <img src="{{ asset('bundles/web/img/slider.jpg') }}" class="animated fadeIn 050s" alt="" />
                         <div class="carousel-content">
-                            <div class="container hexagon">
-                                <h1 class="carousel-header animated bounceInDown delay075s">
-                                    {{ entity.title }}
-                                </h1>
-                                <div class="carousel-body">
+                            <div class="container">
+                                <div>
+                                    <h1 class="carousel-header animated bounceInUp delay075s col-md-12 text-center">
+                                        {{ entity.title }}
+                                    </h1>
+                                </div>
+                                <div class="carousel-body col-md-12 bounceInDown delay2s">
                                     {{ entity.text |raw('html') }}
                                 </div>
-                                {#<img src="{{ asset('bundles/web/img/ant_slide_1.jpg') }}" class="animated bounceInLeft 050s ant-slide-1">#}
-                                {#<img src="{{ asset('bundles/web/img/carousel.png') }}" class="animated bounceInRight 050s ant-carousel">#}
                                 <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">
                             </div>
 
                         </div>
                     </div>
-                    {#<div class="item active">#}
-                    {#<img src="http://placehold.it/1920x500&text=Slide+1" class="animated fadeIn 050s" alt="" />#}
-                    {#<div class="carousel-content">#}
-                    {#<div class="container">#}
-                    {#<h1 class="carousel-header color animated bounceInDown delay075s">Ultra Responsive HTML5 Template</h1><br />#}
-                    {#<div class="carousel-body">#}
-                    {#<ul>#}
-                    {#<li class="light animated bounceInLeft delay2s"><strong>Bootstrap 3</strong> Framework</li>#}
-                    {#<li class="light animated bounceInRight delay250s">Great CSS3 Animations</li>#}
-                    {#<li class="light animated bounceInDown delay3s">Smooth Font Scaling</li>#}
-                    {#<li class="light animated bounceInUp delay3s"><strong>361</strong> Vector Icons</li>#}
-                    {#</ul>#}
-                    {#</div>#}
-                    {#</div>#}
-                    {#</div>#}
-                    {#</div>#}
-
                 {% else %}
                     <div class="item ">
-                        <img src="{{ asset('bundles/web/img/carousel_big.jpg') }}" class="animated fadeIn 050s" alt="" />
-                        <div class="container">
-                            <h3 class="carousel-header">{{ entity.title }}</h3>
-                            <p class="carousel-body">{{ entity.text |raw('html') }}</p>
+                        <img src="{{ asset('bundles/web/img/slider.jpg') }}" class="animated fadeIn 050s" alt="" />
+                        <div class="carousel-content">
+                            <div class="container">
+                                <div>
+                                    <h1 class="carousel-header animated bounceInDown delay075s col-md-12 text-center">
+                                        {{ entity.title }}
+                                    </h1>
+                                </div>
+                                <div class="carousel-body col-md-12">
+                                    {{ entity.text |raw('html') }}
+                                </div>
+                                <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">
+                            </div>
                         </div>
                     </div>
 

@@ -10,10 +10,6 @@ tarifs:
     pattern:  /tarifs
     defaults: { _controller: "AntWebBundle:Page:show", id: "1" }
 
-services:
-    pattern:  /services
-    defaults: { _controller: "AntWebBundle:Page:show", id: "2" }
-
 webmodules:
     pattern: /webmodules
-    defaults: { _controller: "AntWebBundle:Ad:listOneGroup", id:"7", adGroupTemplate:"WebBundle:Ad:modules.html.twig"}
+    defaults: { _controller: "AntWebBundle:Ad:listOneGroup", id:"2", adGroupTemplate:"WebBundle:Ad:modules.html.twig"}

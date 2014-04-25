@@ -30,7 +30,7 @@ class AppKernel extends Kernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             new Ant\WebBundle\AntWebBundle(),
             new Ant\UserBundle\AntUserBundle(),
             new Ant\AdminBundle\AntAdminBundle(),
