@@ -1,10 +1,14 @@
 menu:
     frontend:
         tarifs: Тарифы
-        in_trand: Будь на ходу
+        hosting: Хостинг
         on_the_go: Будь в тренде
         services: Услуги
         develop: Разработка
         copywriting: Копирайтинг
         work: Порядок работы
-        base: Стандартный пакет
+        about: О сервисе
+        webmodules: Компоненты&Модули
+        portfolio: Примеры
+        order: Купить
+        standart: Пакет

@@ -10,11 +10,11 @@
                         <div class="carousel-content">
                             <div class="container">
                                 <div>
-                                    <h1 class="carousel-header animated bounceInUp delay075s col-md-12 text-center">
+                                    <h1 class="carousel-header col-xs-12 col-sm-12 col-md-12 animated bounceInUp delay075s  text-center">
                                         {{ entity.title }}
                                     </h1>
                                 </div>
-                                <div class="carousel-body col-md-12 bounceInDown delay2s">
+                                <div class="carousel-body col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay2s">
                                     {{ entity.text |raw('html') }}
                                 </div>
                                 <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">
@@ -28,11 +28,11 @@
                         <div class="carousel-content">
                             <div class="container">
                                 <div>
-                                    <h1 class="carousel-header animated bounceInDown delay075s col-md-12 text-center">
+                                    <h1 class="carousel-header col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay075s col-md-12 text-center">
                                         {{ entity.title }}
                                     </h1>
                                 </div>
-                                <div class="carousel-body col-md-12">
+                                <div class="carousel-body col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay2s">
                                     {{ entity.text |raw('html') }}
                                 </div>
                                 <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">

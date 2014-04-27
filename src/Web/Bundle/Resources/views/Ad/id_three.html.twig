@@ -2,7 +2,7 @@
 <div class="row" id="work">
     {% for entity in entities if entity.getAdGroup.id == '5'  %}
         {% if loop.first %}
-            <h3 class="hr2 text-center margin-base"><span>{{ entity.getAdGroup.title }}</span></h3>
+            <h3 class="hr2 text-center margin-base"><span class="text-muted">{{ entity.getAdGroup.title }}</span></h3>
         {% endif %}
     {% endfor %}
 
@@ -12,17 +12,19 @@
     {#{%  for entity in ad  %}#}
     {%  for entity in entities  %}
     {% if entity.getAdGroup.id == '5'  %}
-    <div class="col-lg-2">
+    <div class="col-md-3 col-sm-12 col-xs-12">
             {% if entity.getMedia %}
                 <img src="{% path entity.getMedia, 'small' %}">
             {% endif %}
         <h5>{{ entity.title }}</h5>
-
         {{ entity.text|raw('html') }}
         </div>
     {% endif %}
     {% endfor %}
 </div>
+
+
+
 
 
 

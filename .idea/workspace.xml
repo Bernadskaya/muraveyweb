@@ -6,14 +6,87 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/AppKernel.php" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398067891710" ignored="false" />
     <file path="/Dummy.txt" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398068040467" ignored="false" />
-    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398282348948" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398530592376" ignored="false" />
     <file path="/id_one.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398281760699" ignored="false" />
-    <file path="/styles.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398078763818" ignored="false" />
-    <file path="$PROJECT_DIR$/web/bundles/antweb/css/bootstrap.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398078687731" ignored="false" />
-    <file path="$PROJECT_DIR$/web/bundles/antweb/css/bootstrap.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398078687731" ignored="false" />
+    <file path="/styles.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398505516013" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antweb/css/bootstrap.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398526699201" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antweb/css/bootstrap.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398526699201" ignored="false" />
     <file path="/base.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398280649330" ignored="false" />
     <file path="/new.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398282119242" ignored="false" />
-    <file path="/footer.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398282417538" ignored="false" />
+    <file path="/footer.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398441349185" ignored="false" />
+    <file path="/index.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398502036300" ignored="false" />
+    <file path="/id_two.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398530654372" ignored="false" />
+    <file path="/id_three.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398530673888" ignored="false" />
+    <file path="/routing.yml" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398453923016" ignored="false" />
+    <file path="/FrontendBuilder.php" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398439410614" ignored="false" />
+    <file path="/WebBundle.ru.yml" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398503401189" ignored="false" />
+    <file path="/layout.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398504316992" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/red2.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204593" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery-ui-1.8.16.custom.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/blue2.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.tabs.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/purple.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.core.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/yellow.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.resizable.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/x-editable/css/bootstrap-editable.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204594" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/green.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204595" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.theme.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204595" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/purple2.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204595" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.selectable.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204595" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/orange.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204595" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.accordion.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/default.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/red.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.dialog.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/blue3.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.datepicker.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204596" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/ie/ie8.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/animate.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/styles.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/magnific-popup.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/bxslider.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/custom.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.autocomplete.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.button.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antadmin/js/skins/lightgray/content.inline.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.accordion.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204597" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antadmin/js/skins/lightgray/content.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.progressbar.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.tabs.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.core.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antadmin/js/skins/lightgray/skin.ie7.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.resizable.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204598" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antadmin/js/skins/lightgray/skin.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204606" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.slider.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204606" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.selectable.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.dialog.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/base/jquery.ui.datepicker.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/antweb/css/slimbox.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/css/layout.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/css/colors.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatamedia/nivo-gallery/nivo-gallery.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sensiodistribution/webconfigurator/css/configurator.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sensiodistribution/webconfigurator/css/install.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/bootstrap/css/bootstrap.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/framework/css/exception.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/bootstrap/css/bootstrap-responsive.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/framework/css/structure.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/framework/css/body.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonataadmin/bootstrap/css/bootstrap-responsive.min.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/less/styles.less" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/isotope/isotope.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/gray.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/green2.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.autocomplete.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.button.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/brown.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/red3.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.slider.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/web/css/colors/blue.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204607" ignored="false" />
+    <file path="$PROJECT_DIR$/web/bundles/sonatajquery/themes/flick/jquery.ui.progressbar.css" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398508204608" ignored="false" />
+    <file path="/config.yml" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398526552075" ignored="false" />
+    <file path="/id_five.html.twig" changelist="77ac74db-4526-45c2-aea4-c0e383939cc4" time="1398530623639" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,64 +106,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_five.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="75" selection-start="186" selection-end="186" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_two.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="21" selection-start="319" selection-end="319" vertical-scroll-proportion="0.15625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_four.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_four.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="45" selection-start="605" selection-end="605" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="22" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="27" selection-start="3864" selection-end="3864" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="47" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+            <state line="206" column="43" selection-start="6822" selection-end="6822" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="id_three.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_three.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="77" selection-start="144" selection-end="144" vertical-scroll-proportion="-2.5">
+            <state line="5" column="19" selection-start="274" selection-end="274" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="id_one.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="6" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-28.583334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/OrderForm/new.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="51" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-14.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Page/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="227" selection-end="691" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+            <state line="1834" column="22" selection-start="39980" selection-end="39980" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,27 +190,7 @@
       <file leaf-file-name="WebBundle.ru.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="253" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16759777">
-              <folding>
-                <marker date="1398282486000" expanded="true" signature="22:157" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thumb.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/thumb.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="13" column="23" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,29 +206,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/ant/webbundle/Ant/WebBundle/Resources/config/ant_config.yml" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig" />
-        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/last.html.twig" />
-        <option value="$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/News/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/News/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php" />
-        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig" />
         <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/OrderForm/new.html.twig" />
         <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_three.html.twig" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="1436" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -234,6 +307,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,443 +350,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediabundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediabundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediabundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediabundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediabundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrderForm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="News" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muraveyweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,15 +414,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sonia" />
-    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sym" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -872,7 +513,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -880,7 +521,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36011478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37122303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -964,107 +605,109 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/News/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/OrderForm/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.6703911" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/News/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.8324022" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_four.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="649" selection-end="649" vertical-scroll-proportion="0.37037036" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/last.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="268" selection-end="293" vertical-scroll-proportion="0.16238159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="44" selection-end="565" vertical-scroll-proportion="0.25930852" />
+        <state line="60" column="51" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Web/MediaBundle/Resources/views/Gallery/thumb.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="177" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml">
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="47" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="51" column="0" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.8782138" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Page/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="227" selection-end="691" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="72" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.020949721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="77" selection-start="144" selection-end="144" vertical-scroll-proportion="-2.5">
+        <state line="20" column="0" selection-start="526" selection-end="541" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_one.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="6" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-28.583334">
+        <state line="6" column="27" selection-start="196" selection-end="232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/OrderForm/new.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Menu/FrontendBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="51" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-14.75">
+        <state line="42" column="58" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/translations/WebBundle.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16759777">
-          <folding>
-            <marker date="1398282486000" expanded="true" signature="22:157" placeholder="..." />
-          </folding>
+        <state line="13" column="23" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1834" column="22" selection-start="39980" selection-end="39980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="27" selection-start="3864" selection-end="3864" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="43" selection-start="6822" selection-end="6822" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_five.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="75" selection-start="186" selection-end="186" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_three.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="274" selection-end="274" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_four.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="605" selection-end="605" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/Bundle/Resources/views/Ad/id_two.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="319" selection-end="319" vertical-scroll-proportion="0.15625">
+          <folding />
         </state>
       </provider>
     </entry>

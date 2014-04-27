@@ -1578,7 +1578,8 @@ h6[id]:before,
   }
 }
 /* Carousel - (Default: Wide Version)
--------------------------*/.carousel {
+-------------------------*/
+.carousel {
   margin: 0 0 20px;
   font-size: 1.8em;
   background: #fff;
@@ -1715,11 +1716,38 @@ h6[id]:before,
     color: #ffffff;
 
 }
-@media (min-width: 1200px) {
-  .carousel-content .carousel-body {
-    font-weight: 300;
-  }
+
+.price-tag-carousel {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2em;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;}
+
+.carousel-body .glyphicon {
+    font-size: 2em;
 }
+
+@media (min-width: 1200px) {
+    .price-tag-carousel {
+        margin: 20px 0;
+        color: #ffffff;
+        font-size: 3em;
+        line-height: 1;
+        font-weight: 900;
+}
+}
+
+@media (min-width: 1200px) {
+
+    .carousel-content .carousel-body {
+        font-weight: 300;
+    }
+
+
+}
+
 .carousel-content ul {
   margin: 0;
   padding: 0;
@@ -1749,6 +1777,8 @@ h6[id]:before,
     visibility: visible;
   }
 }
+
+
 .carousel-caption small {
   font-size: 20px;
 }
@@ -2200,8 +2230,6 @@ h6[id]:before,
     right: 0;
     height: 100%;
     width: 100%;
-    padding: 20px;
-
 }
 
 .divider > a .type {

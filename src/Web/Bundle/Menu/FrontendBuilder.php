@@ -17,15 +17,26 @@ class FrontendBuilder extends ContainerAware {
     {
         $menu = $factory->createItem('root');
         $menu->setChildrenAttribute('class', 'nav navbar-nav')
-            ->addChild('Компоненты&Модули', array('route' => 'webmodules'));
-        $menu
-            ->addChild('menu.frontend.portfolio', array('uri' => '#portfolio'))
-            ->setExtra('translation_domain', 'AntWebBundle');
-        $menu
-            ->addChild('menu.frontend.work', array('uri' => '#work'))
+            ->addChild('menu.frontend.about', array('uri' => '#', 'attributes' => array('class'=>'dropdown')))
             ->setExtra('translation_domain', 'WebBundle');
         $menu
             ->addChild('menu.frontend.tarifs', array('route' => 'tarifs', 'attributes' => array('class'=>'dropdown')))
+            ->setExtra('translation_domain', 'WebBundle');
+        $menu['menu.frontend.about']
+            ->addChild('menu.frontend.webmodules', array('route' => 'webmodules'))
+            ->setExtra('translation_domain', 'WebBundle');
+        $menu['menu.frontend.about']
+            ->addChild('Преимущества', array('route' => 'we_are_the_best'));
+        $menu['menu.frontend.about']
+            ->addChild('menu.frontend.work', array('route' => 'steps'))
+            ->setExtra('translation_domain', 'WebBundle');
+        $menu['menu.frontend.about']
+            ->addChild('menu.frontend.portfolio', array('uri' => '#portfolio'))
+            ->setExtra('translation_domain', 'WebBundle');
+        $menu['menu.frontend.about']
+            ->setChildrenAttributes(array ('class'=>'dropdown-menu'));
+        $menu['menu.frontend.tarifs']
+            ->addChild('menu.frontend.standart', array('route' => 'tarifs'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.tarifs']
             ->addChild('menu.frontend.develop', array('route' => 'tarifs'))
@@ -36,16 +47,13 @@ class FrontendBuilder extends ContainerAware {
         $menu['menu.frontend.tarifs']
             ->setLinkAttributes(array ());
         $menu['menu.frontend.tarifs']
-            ->addChild('menu.frontend.on_the_go', array('route' => 'tarifs'))
-            ->setExtra('translation_domain', 'WebBundle');
-        $menu['menu.frontend.tarifs']
-            ->addChild('menu.frontend.in_trand', array('uri' => '#'))
+            ->addChild('menu.frontend.hosting', array('route' => 'tarifs'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.tarifs']
             ->setChildrenAttributes(array ('class'=>'dropdown-menu'));
         $menu
             ->addChild('menu.frontend.order', array('route' => 'order_new'))
-            ->setExtra('translation_domain', 'AntWebBundle');
+            ->setExtra('translation_domain', 'WebBundle');
 
         return $menu;
     }
@@ -55,7 +63,7 @@ class FrontendBuilder extends ContainerAware {
 
 
 
-     public function modulesMenu(FactoryInterface $factory, array $options)
+    public function modulesMenu(FactoryInterface $factory, array $options)
     {
         $menu = $factory->createItem('root');
         $menu->setChildrenAttribute('class', 'nav')

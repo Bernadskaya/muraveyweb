@@ -13,3 +13,11 @@ tarifs:
 webmodules:
     pattern: /webmodules
     defaults: { _controller: "AntWebBundle:Ad:listOneGroup", id:"2", adGroupTemplate:"WebBundle:Ad:modules.html.twig"}
+
+steps:
+    pattern: /poryadok_raboty
+    defaults: { _controller: "AntWebBundle:Page:show", id: "2" }
+
+we_are_the_best:
+    pattern: /preimuschestva
+    defaults: { _controller: "AntWebBundle:Page:show", id: "3" }

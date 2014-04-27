@@ -204,7 +204,7 @@ liip_imagine:
             quality: 100
             controller_action: 'SonataMediaBundle:Media:liipImagineFilter'
             filters:
-                thumbnail: { size: [300, 200], mode: inset }
+                thumbnail: { size: [200, 200], mode: outbond }
         default_gallery_thumb:
             quality: 95
             controller_action: 'SonataMediaBundle:Media:liipImagineFilter'

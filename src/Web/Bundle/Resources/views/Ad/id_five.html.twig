@@ -1,7 +1,7 @@
 <div class="row">
-    {% for entity in entities if entity.getAdGroup.id == '6'  %}
+    {% for entity in entities if entity.getAdGroup.id == '3'  %}
         {% if loop.first %}
-            <h3 class="hr2 text-center margin-base"><span> {{ entity.getAdGroup.title }}</span></h3>
+            <h3 class="hr2 text-center margin-base"><span class="text-muted">{{ entity.getAdGroup.title }}</span></h3>
         {% endif %}
     {% endfor %}
 </div>
@@ -10,12 +10,12 @@
     {#{%  for entity in ad  %}#}
     <ul class="ad-striped">
         {%  for entity in entities  %}
-        {% if entity.getAdGroup.id == '6'  %}
+        {% if entity.getAdGroup.id == '3'  %}
                 <li>
                     <div class="row">
                     <div class="col-sm-4  img">
                         {% if entity.getMedia %}
-                            <img src="{% path entity.getMedia, 'chess' %}">
+                            <img src="{% path entity.getMedia, 'chess' %}" class="img-circle">
                         {% endif %}
                     </div>
                     <div class="col-sm-8 a">

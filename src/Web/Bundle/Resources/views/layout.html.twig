@@ -35,6 +35,10 @@
     {% block header %}
         <header id="header" class="navbar">
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 pull-left"><span class="text-muted">Сервис создания современных сайтов</span></div>
+                    <div class="col-sm-12 col-md-6 pull-right text-right"><span class="text-muted">+7 905 500 12 31</span></div>
+                </div>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Skip navigation</span>
@@ -42,7 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand logo" href="/">Муравей.ИТ</a>
+                    <a class="navbar-brand logo" href="/">MuraveyWeb</a>
                 </div>
                 <nav class="collapse navbar-collapse" role="navigation">
                     {{ knp_menu_render('WebBundle:FrontendBuilder:mainMenu', {'depth': 2, 'currentAsLink': false}) }}
