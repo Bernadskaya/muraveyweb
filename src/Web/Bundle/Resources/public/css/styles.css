@@ -648,7 +648,10 @@ Not in Use! Default Icon Font is FontAwesome
 -------------------------*/@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 /* Elements
 -------------------------*/input,
@@ -1495,7 +1498,7 @@ body.modal-open,
   width: 240px;
 }
 #sidebar.affix {
-  top: 80px;
+  top: 85px;
   width: 240px;
 }
 #sidebar.affix-bottom {
@@ -2175,102 +2178,123 @@ h6[id]:before,
   padding: 15px;
   width: 25%;
 }
-.divider > a {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+
+.portfolio.portfolio-single-column > li {
+    width: 100%;
+    margin: 0 0 40px -15px;
+    padding: 0;
+    text-align: left;
 }
-.divider > a .header {
-  font-size: 1em;
-  line-height: 1.25;
-  display: block;
-  font-weight: 900;
+.portfolio.portfolio-single-column > li a {
+    display: inline-block;
+}
+.portfolio.portfolio-single-column > li > div {
+    margin-bottom: 20px;
+}
+.portfolio > li {
+    display: inline-block;
+    margin-left: -1px;
+    margin-bottom: 0px;
+    padding: 15px;
+    width: 25%;
+}
+.portfolio > li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.portfolio > li a .header {
+    font-size: 1em;
+    line-height: 1.25;
+    display: block;
+    font-weight: 900;
 }
 @media (min-width: 1200px) {
-  .divider > a .header {
-    font-size: 2em;
-    font-weight: 400;
-    margin-bottom: .5em;
-  }
+    .portfolio > li a .header {
+        font-size: 2em;
+        font-weight: 400;
+        margin-bottom: .5em;
+    }
 }
-.divider > a:hover .portfolio-item-content {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  opacity: .9;
+.portfolio > li a:hover .portfolio-item-content {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    opacity: .9;
 }
-.divider > a:hover .type {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  opacity: 0;
+.portfolio > li a:hover .type {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
 }
-.divider > a .portfolio-item-content {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  padding: 20px;
-  background: #A1C22D;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-.divider > a > h2 {
+.portfolio > li a .portfolio-item-content {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 100%;
     width: 100%;
+    color: #fff;
+    padding: 20px;
+    background: #89AC10;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
 }
-
-.divider > a .type {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  opacity: 1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 12px;
-  padding: 2px 12px;
-  color: #fff;
-  background: #000;
-  background: rgba(0, 0, 0, 0.25);
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  visibility: hidden;
+.portfolio > li a .portfolio-item-content .body {
+    visibility: hidden;
+}
+@media (min-width: 1200px) {
+    .portfolio > li a .portfolio-item-content .body {
+        visibility: visible;
+    }
+}
+.portfolio > li a .type {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    padding: 2px 12px;
+    color: #fff;
+    background: #000;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    visibility: hidden;
 }
 @media (min-width: 992px) {
-  .divider > a .type {
-    visibility: visible;
-  }
+    .portfolio > li a .type {
+        visibility: visible;
+    }
 }
-.divider img {
-  background-color: #ffffff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
-  background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
-  background: -moz-linear-gradient(top, #ffffff, #eeeeee);
-  background: -ms-linear-gradient(top, #ffffff, #eeeeee);
-  background: -o-linear-gradient(top, #ffffff, #eeeeee);
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+.portfolio img {
+    width: 100%;
+    background-color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+    background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+    background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+    background: -ms-linear-gradient(top, #ffffff, #eeeeee);
+    background: -o-linear-gradient(top, #ffffff, #eeeeee);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
 }
 .portfolio li ul,
 .portfolio li ol {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 .project-single {
   margin-bottom: 60px;

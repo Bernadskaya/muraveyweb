@@ -6,39 +6,20 @@
         {% endif %}
     {% endfor %}
     <div class="row">
-        {#<div class="portfolio columns3">#}
-
-
-                <ul class="cbp-ig-grid">
-                    {%  for entity in entities  %}
-                        {% if entity.getAdGroup.id == '4'  %}
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-shoe"></span>
-                                    <h3 class="cbp-ig-title">{{ entity.title }}</h3>
-                                    <span class="cbp-ig-category">{{ entity.text|raw('html') }}</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-
-                {#<div class="divider col-xs-12 col-sm-6 col-md-4">#}
-                    {#<a href="">#}
-                        {#{% if entity.getMedia %}#}
-                            {#<img src="{% path entity.getMedia, 'small' %}">#}
-                        {#{% endif %}#}
-                        {#<h2> {{ entity.title }}</h2>#}
-                    {#</a>#}
-                    {#<div class="lead"> {{ entity.text|raw('html') }}</div>#}
-                    {#<span class="portfolio-item-content">#}
-                    {#<span class="body">#}
-                    {#{{ entity.text|raw('html') }}#}
-                    {#</span>#}
-                    {#</span>#}
-                    {#</a>#}
-                {#</div>#}
-        {#</div>#}
+        {# Bluedrops#}
+        <ul class="cbp-ig-grid">
+            {%  for entity in entities  %}
+                {% if entity.getAdGroup.id == '4'  %}
+                    <li>
+                        <a href="#">
+                            <span class="{{ entity.icon }}"></span>
+                            <h3 class="cbp-ig-title">{{ entity.title }}</h3>
+                            <span class="cbp-ig-category">{{ entity.text|raw('html') }}</span>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </div>
 </div>
 <!-- /Что внутри? -->

@@ -139,7 +139,7 @@ sonata_media:
             providers:
                 - sonata.media.provider.image
             formats:
-                big:   { width: 1500 , quality: 100}
+                gallery:   { width: 900 , quality: 100}
     cdn:
         server:
             path:  # http://media.sonata-project.org/
@@ -195,6 +195,11 @@ liip_imagine:
             controller_action: 'SonataMediaBundle:Media:liipImagineFilter'
             filters:
                 thumbnail: { size: [1920, 520], mode: outbound }
+        default_gallery:
+            quality: 100
+            controller_action: 'SonataMediaBundle:Media:liipImagineFilter'
+            filters:
+                thumbnail: { size: [900, 900], mode: inset }
         default_thumb:
             quality: 100
             controller_action: 'SonataMediaBundle:Media:liipImagineFilter'
@@ -209,4 +214,4 @@ liip_imagine:
             quality: 95
             controller_action: 'SonataMediaBundle:Media:liipImagineFilter'
             filters:
-                thumbnail: { size: [600, 400], mode: outbond }
+                thumbnail: { size: [300, 200], mode: outbond }

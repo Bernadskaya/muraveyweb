@@ -2,61 +2,37 @@
 -------------------------*/
 
 .ad-striped  {
-    margin-bottom: 10px;
+    margin: 20px 0;
     list-style-type: none;
-
 }
 
-.ad-striped > li:nth-child(even) div {
-    background-color: #E9F3D9;
-
-}
-.ad-striped > li:nth-child(even) div div.img {
-    float: right;
-    margin: 0;
-}
 .ad-striped > li:nth-child(even) div div.img img{
-    text-align: right;
-    margin: 0;
+    text-align: center;
 }
 
 .ad-striped > li div div.img {
     text-align: center;
-    margin: 0;
-    padding: 45px;
 }
 
-.ad-striped > li:nth-child(even) div div.a {
-    float: left;
-    margin: 0;
-    padding: 45px;
+.ad-striped .a {
+    padding-top: 30px;
+    min-height: 250px;
 }
 
-.ad-striped > li:nth-child(odd) div div.img {
-    float: left;
-    margin: 0;
-}
+@media screen and (min-width: 900px) {
+    .ad-striped > li:nth-child(even) div div.img img{
+        text-align: right;
+    }
 
-.ad-striped > li:nth-child(odd) div div.a {
-    float: right;
-    margin: 0;
-    padding: 45px;
-}
+    .ad-striped > li:nth-child(odd) div div.a,
+    .ad-striped > li:nth-child(even) div div.img{
+        float: right;
+    }
 
-
-.hexagon span.mask {
-    height: 500px;
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    z-index: 2;
-    background: url("../../bundles/web/img/carousel.png") no-repeat;
-    -webkit-transition:-webkit-transform 300ms ease-out;
-    -moz-transition:-moz-transform 300ms ease-out;
-    -o-transition:-o-transform 300ms ease-out;
-    transition:transform 300ms ease-out;
-    -webkit-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    .ad-striped > li:nth-child(even) div div.a,
+    .ad-striped > li:nth-child(odd) div div.img{
+        float: left;
+    }
 }
 
 .ant-slide-1 {
@@ -124,16 +100,16 @@
 }
 
 /* the icon with pseudo class for icon font */
-.cbp-ig-icon {
-    padding: 30px 0 0 0;
+.bluedrops {
+    padding: 60px 0 0 0;
     display: block;
     -webkit-transition: -webkit-transform 0.2s;
     transition: -moz-transform 0.2s;
     transition: transform 0.2s;
 }
 
-.cbp-ig-icon:before {
-    font-family: 'anyoldicon';
+
+.bluedrops:before{
     font-size: 14em;
     speak: none;
     font-style: normal;
@@ -144,29 +120,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.cbp-ig-icon-shoe:before {
-    content: "\e000";
-}
-
-.cbp-ig-icon-ribbon:before {
-    content: "\e001";
-}
-
-.cbp-ig-icon-milk:before {
-    content: "\e002";
-}
-
-.cbp-ig-icon-whippy:before {
-    content: "\e003";
-}
-
-.cbp-ig-icon-spectacles:before {
-    content: "\e004";
-}
-
-.cbp-ig-icon-doumbek:before {
-    content: "\e007";
-}
 
 /* title element */
 .cbp-ig-grid .cbp-ig-title {
@@ -194,9 +147,8 @@
 }
 
 .cbp-ig-grid .cbp-ig-category {
-    text-transform: uppercase;
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #fff;
     -webkit-transform: translateY(10px);
     -moz-transform: -moz-translateY(10px);
@@ -223,14 +175,16 @@
     background: #A1C22D;
 }
 
-.cbp-ig-grid li > a:hover .cbp-ig-icon {
-    -webkit-transform: translateY(10px);
-    -moz-transform: translateY(10px);
-    -ms-transform: translateY(10px);
-    transform: translateY(10px);
+.cbp-ig-grid li > a:hover .bluedrops
+{
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .cbp-ig-grid li > a:hover .cbp-ig-icon:before,
+.cbp-ig-grid li > a:hover .bluedrops:before,
 .cbp-ig-grid li > a:hover .cbp-ig-title {
     color: #fff;
 }
@@ -298,4 +252,13 @@
     .cbp-ig-grid .cbp-ig-category {
         margin-top: 20px;
     }
+}
+
+.topinfo {
+    padding:5px 0;
+    margin-right: 0;
+}
+
+.btn-primary .btn-order {
+    color: #ffffff;
 }

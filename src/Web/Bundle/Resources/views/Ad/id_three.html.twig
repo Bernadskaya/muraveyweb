@@ -1,30 +1,31 @@
-<!--  Work -->
+<!--  Steps -->
 <div class="row" id="work">
     {% for entity in entities if entity.getAdGroup.id == '5'  %}
         {% if loop.first %}
             <h3 class="hr2 text-center margin-base"><span class="text-muted">{{ entity.getAdGroup.title }}</span></h3>
         {% endif %}
     {% endfor %}
-
 </div>
-<div class="row">
-    {#<h2>{{ adGroupTitle }}</h2>#}
-    {#{%  for entity in ad  %}#}
-    {%  for entity in entities  %}
-    {% if entity.getAdGroup.id == '5'  %}
-    <div class="col-md-3 col-sm-12 col-xs-12">
-            {% if entity.getMedia %}
-                <img src="{% path entity.getMedia, 'small' %}">
+<div class="iconbox section-small">
+    <div class="row">
+        {%  for entity in entities  %}
+            {% if entity.getAdGroup.id == '5'  %}
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <span class="{{ entity.icon }}"></span>
+                    <h5 class="header">{{ entity.title }}</h5>
+                    <div class="content">
+                        {{ entity.text|raw('html') }}
+                    </div>
+                </div>
             {% endif %}
-        <h5>{{ entity.title }}</h5>
-        {{ entity.text|raw('html') }}
+        {% endfor %}
+        <div class="row">
+            <div class="text-center">
+                <a href="{{ path ('steps') }}" class="btn btn-primary btn-lg">Подробнее</a>
+            </div>
         </div>
-    {% endif %}
-    {% endfor %}
+    </div>
 </div>
-
-
-
 
 
 

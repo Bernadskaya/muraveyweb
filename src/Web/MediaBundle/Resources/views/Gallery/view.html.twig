@@ -16,30 +16,30 @@
             <div class="col-md-8">
                 <div class="gallery">
                     {% for galleryHasMedia in gallery.GalleryHasMedias %}
-                    {% if loop.first %}
-                    <div class="row margin-bottom-large">
-                        <div class="col-sm-12">
-                            <a href="{% path galleryHasMedia.media, 'carousel' %}" title="<h3>Easily browse through a gallery with your keyboard (left & right), close with ESC</h3>">
-                                <img src="{% path galleryHasMedia.media, 'carousel' %}" alt="" />
-                            </a>
-                        </div>
-                        <div class="row">
-                            {% elseif loop.last == false %}
-                                <div class="col-sm-4">
-                                    <a href="{% path galleryHasMedia.media, 'carousel' %}" title="Use the <code>title</code> attribute to add a caption like this one. ">
-                                        <img src="{% path galleryHasMedia.media, 'gallery_thumb' %}" alt="" />
+                        {% if loop.first %}
+                            <div class="row margin-bottom-large">
+                                <div class="col-sm-12">
+                                    <a href="{% path galleryHasMedia.media, 'gallery' %}" title="{{ gallery.name }}">
+                                        <img src="{% path galleryHasMedia.media, 'carousel' %}" alt="" />
                                     </a>
                                 </div>
-                            {% else %}
+                            </div>
+                            <div class="row">
+                        {% elseif loop.last == false %}
                             <div class="col-sm-4">
-                                <a href="{% path galleryHasMedia.media, 'carousel' %}" title="Use the <code>title</code> attribute to add a caption like this one. ">
+                                <a href="{% path galleryHasMedia.media, 'gallery' %}" title="{{ gallery.name }}">
                                     <img src="{% path galleryHasMedia.media, 'gallery_thumb' %}" alt="" />
                                 </a>
                             </div>
-                        </div>
+                        {% else %}
+                            <div class="col-sm-4">
+                                <a href="{% path galleryHasMedia.media, 'gallery' %}" title="{{ gallery.name }}">
+                                    <img src="{% path galleryHasMedia.media, 'gallery_thumb' %}" alt="" />
+                                </a>
+                            </div>
+                            </div>
                         {% endif %}
-                        {% endfor %}
-                    </div>
+                    {% endfor %}
                 </div>
             </div><!-- .col-xx-x -->
 
@@ -49,61 +49,61 @@
                     {{ gallery.description }}
                 </p>
 
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Client</a></h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <p>
-                                    <strong>Great Company Inc.</strong>
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, odit libero quis facilis expedita voluptates maxime quaerat dolorum quas laudantium.
-                                </p>
-                                <p>
-                                    <a href="http://google.com">www.google.com</a>
-                                </p>
-                                <span class="project-date">September 2013</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Our Expertise</a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                </p>
-                                <ul class="list-icon">
-                                    <li><i class="icon-ok-sign"></i>Awesome Skill #1</li>
-                                    <li><i class="icon-ok-sign"></i>Awesome Skill #2</li>
-                                    <li><i class="icon-ok-sign"></i>Awesome Skill #3</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Feedback</a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <blockquote>
-                                    <p><strong>Incredible.</strong> What a team, what a result. I am so happy. Highly recommend those folks.</p>
-                                    <small>John Doe, CEO of <cite title="Source Title">"Great Company Inc."</cite></small>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {#<div class="panel-group" id="accordion">#}
+                {#<div class="panel panel-default">#}
+                {#<div class="panel-heading">#}
+                {#<h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Client</a></h4>#}
+                {#</div>#}
+                {#<div id="collapseOne" class="panel-collapse collapse in">#}
+                {#<div class="panel-body">#}
+                {#<p>#}
+                {#<strong>Great Company Inc.</strong>#}
+                {#</p>#}
+                {#<p>#}
+                {#Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, odit libero quis facilis expedita voluptates maxime quaerat dolorum quas laudantium.#}
+                {#</p>#}
+                {#<p>#}
+                {#<a href="http://google.com">www.google.com</a>#}
+                {#</p>#}
+                {#<span class="project-date">September 2013</span>#}
+                {#</div>#}
+                {#</div>#}
+                {#</div>#}
+                {#<div class="panel panel-default">#}
+                {#<div class="panel-heading">#}
+                {#<h4 class="panel-title">#}
+                {#<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Our Expertise</a>#}
+                {#</h4>#}
+                {#</div>#}
+                {#<div id="collapseTwo" class="panel-collapse collapse">#}
+                {#<div class="panel-body">#}
+                {#<p>#}
+                {#Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.#}
+                {#</p>#}
+                {#<ul class="list-icon">#}
+                {#<li><i class="icon-ok-sign"></i>Awesome Skill #1</li>#}
+                {#<li><i class="icon-ok-sign"></i>Awesome Skill #2</li>#}
+                {#<li><i class="icon-ok-sign"></i>Awesome Skill #3</li>#}
+                {#</ul>#}
+                {#</div>#}
+                {#</div>#}
+                {#</div>#}
+                {#<div class="panel panel-default">#}
+                {#<div class="panel-heading">#}
+                {#<h4 class="panel-title">#}
+                {#<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Feedback</a>#}
+                {#</h4>#}
+                {#</div>#}
+                {#<div id="collapseThree" class="panel-collapse collapse">#}
+                {#<div class="panel-body">#}
+                {#<blockquote>#}
+                {#<p><strong>Incredible.</strong> What a team, what a result. I am so happy. Highly recommend those folks.</p>#}
+                {#<small>John Doe, CEO of <cite title="Source Title">"Great Company Inc."</cite></small>#}
+                {#</blockquote>#}
+                {#</div>#}
+                {#</div>#}
+                {#</div>#}
+                {#</div>#}
             </div>
         </div><!-- .row -->
     </div>

@@ -1,8 +1,34 @@
-<ul>
-    {% for gallery in pagination %}
-        <li><a href="{{ url('sonata_media_gallery_view', {'id' : gallery|sonata_urlsafeid }) }}">{{ gallery.name }}</a></li>
-        {{ render(controller('AntMediaBundle:Gallery:thumb', { 'id': gallery|sonata_urlsafeid } )) }}
-    {% endfor %}
+<div class="row" id="portfolio">
+    <h3 class="hr2 text-center margin-base text-muted"><span>Как выглядит?</span></h3>
+</div>
+
+<ul class="portfolio-filter list-inline">
+    <li class="active"><a href="#" data-filter="*">Все</a></li>
+    <li><a href="#" data-filter=".consulting">Шаблоны</a></li>
+    <li><a href="#" data-filter=".social-media">Клиенты</a></li>
 </ul>
+
+<div class="row">
+    <ul class="portfolio columns3">
+        {% for gallery in pagination %}
+
+            <li class="consulting">
+                <a href="{{ url('sonata_media_gallery_view', {'id' : gallery|sonata_urlsafeid }) }}">
+
+                    {{ render(controller('AntMediaBundle:Gallery:thumb', { 'id': gallery|sonata_urlsafeid } )) }}
+                    <span class="type">Клиент</span>
+                            <span class="portfolio-item-content">
+						        <span class="header">
+                                    {{ gallery.name }}
+                                </span>
+                                <span class="body">
+                                             <p></p>
+                                </span>
+					        </span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
 
 

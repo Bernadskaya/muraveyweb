@@ -2,61 +2,37 @@
 -------------------------*/
 
 .ad-striped  {
-    margin-bottom: 10px;
+    margin: 20px 0;
     list-style-type: none;
-
 }
 
-.ad-striped > li:nth-child(even) div {
-    background-color: #E9F3D9;
-
-}
-.ad-striped > li:nth-child(even) div div.img {
-    float: right;
-    margin: 0;
-}
 .ad-striped > li:nth-child(even) div div.img img{
-    text-align: right;
-    margin: 0;
+    text-align: center;
 }
 
 .ad-striped > li div div.img {
     text-align: center;
-    margin: 0;
-    padding: 45px;
 }
 
-.ad-striped > li:nth-child(even) div div.a {
-    float: left;
-    margin: 0;
-    padding: 45px;
+.ad-striped .a {
+    padding-top: 30px;
+    min-height: 250px;
 }
 
-.ad-striped > li:nth-child(odd) div div.img {
-    float: left;
-    margin: 0;
-}
+@media screen and (min-width: 900px) {
+    .ad-striped > li:nth-child(even) div div.img img{
+        text-align: right;
+    }
 
-.ad-striped > li:nth-child(odd) div div.a {
-    float: right;
-    margin: 0;
-    padding: 45px;
-}
+    .ad-striped > li:nth-child(odd) div div.a,
+    .ad-striped > li:nth-child(even) div div.img{
+        float: right;
+    }
 
-
-.hexagon span.mask {
-    height: 500px;
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    z-index: 2;
-    background: url("../../bundles/bundles/web/img/carousel.png") no-repeat;
-    -webkit-transition:-webkit-transform 300ms ease-out;
-    -moz-transition:-moz-transform 300ms ease-out;
-    -o-transition:-o-transform 300ms ease-out;
-    transition:transform 300ms ease-out;
-    -webkit-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    .ad-striped > li:nth-child(even) div div.a,
+    .ad-striped > li:nth-child(odd) div div.img{
+        float: left;
+    }
 }
 
 .ant-slide-1 {
@@ -74,4 +50,215 @@
 .ant-ad {
     bottom: 40%;
     right: 10%;
+}
+
+/* General grid styles */
+.cbp-ig-grid {
+    list-style: none;
+    padding: 0 0 50px 0;
+    margin: 0;
+}
+
+/* Clear floats */
+.cbp-ig-grid:before,
+.cbp-ig-grid:after {
+    content: " ";
+    display: table;
+}
+
+.cbp-ig-grid:after {
+    clear: both;
+}
+
+/* grid item */
+.cbp-ig-grid li {
+    width: 33%;
+    float: left;
+    height: 420px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+/* we are using a combination of borders and box shadows to control the grid lines */
+.cbp-ig-grid li:nth-child(-n+3){
+    border-top: none;
+}
+
+.cbp-ig-grid li:nth-child(3n-1),
+.cbp-ig-grid li:nth-child(3n-2) {
+    box-shadow: 1px 0 0 #ddd;
+}
+
+/* anchor style */
+.cbp-ig-grid li > a {
+    display: block;
+    height: 100%;
+    color: #A1C22D;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+/* the icon with pseudo class for icon font */
+.bluedrops {
+    padding: 60px 0 0 0;
+    display: block;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+
+.bluedrops:before{
+    font-size: 14em;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* title element */
+.cbp-ig-grid .cbp-ig-title {
+    margin: 20px 0 10px 0;
+    padding: 20px 0 0 0;
+    font-size: 2em;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.cbp-ig-grid .cbp-ig-title:before {
+    content: '';
+    position: absolute;
+    background: #A1C22D;
+    width: 160px;
+    height: 6px;
+    top: 0px;
+    left: 50%;
+    margin: -10px 0 0 -80px;
+    -webkit-transition: margin-top 0.2s; /* top or translate does not seem to work in Firefox */
+    -moz-transition: margin-top 0.2s;
+    transition: margin-top 0.2s;
+}
+
+.cbp-ig-grid .cbp-ig-category {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+    -webkit-transform: translateY(10px);
+    -moz-transform: -moz-translateY(10px);
+    -ms-transform: -ms-translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    -webkit-transition: transform 0.3s, opacity 0.2s;
+}
+
+.cbp-ig-grid li:hover .cbp-ig-category,
+.touch .cbp-ig-grid li .cbp-ig-category {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+/* Hover styles */
+
+.cbp-ig-grid li > a:hover {
+    background: #A1C22D;
+}
+
+.cbp-ig-grid li > a:hover .bluedrops
+{
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-icon:before,
+.cbp-ig-grid li > a:hover .bluedrops:before,
+.cbp-ig-grid li > a:hover .cbp-ig-title {
+    color: #fff;
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-title {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-title:before {
+    background: #fff;
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width: 62.75em) {
+    .cbp-ig-grid li {
+        width: 50%;
+    }
+
+    /* reset the grid lines */
+    .cbp-ig-grid li:nth-child(-n+3){
+        border-top: 1px solid #ddd;
+    }
+
+    .cbp-ig-grid li:nth-child(3n-1),
+    .cbp-ig-grid li:nth-child(3n-2) {
+        box-shadow: none;
+    }
+
+    .cbp-ig-grid li:nth-child(-n+2){
+        border-top: none;
+    }
+
+    .cbp-ig-grid li:nth-child(2n-1) {
+        box-shadow: 1px 0 0 #ddd;
+    }
+}
+
+@media screen and (max-width: 41.6em) {
+    .cbp-ig-grid li {
+        width: 100%;
+    }
+
+    .cbp-ig-grid li:nth-child(-n+2){
+        border-top: 1px solid #ddd;
+    }
+
+    .cbp-ig-grid li:nth-child(2n-1) {
+        box-shadow: none
+    }
+
+    .cbp-ig-grid li:first-child {
+        border-top: none;
+    }
+}
+
+@media screen and (max-width: 25em) {
+    .cbp-ig-grid {
+        font-size: 80%;
+    }
+
+    .cbp-ig-grid .cbp-ig-category {
+        margin-top: 20px;
+    }
+}
+
+.topinfo {
+    padding:5px 0;
+    margin-right: 0;
+}
+
+.btn-primary .btn-order {
+    color: #ffffff;
 }

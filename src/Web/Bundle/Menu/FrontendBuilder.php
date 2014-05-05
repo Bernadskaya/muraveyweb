@@ -31,7 +31,7 @@ class FrontendBuilder extends ContainerAware {
             ->addChild('menu.frontend.work', array('route' => 'steps'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.about']
-            ->addChild('menu.frontend.portfolio', array('uri' => '#portfolio'))
+            ->addChild('menu.frontend.portfolio', array('route' => 'sonata_media_gallery_index'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.about']
             ->setChildrenAttributes(array ('class'=>'dropdown-menu'));
@@ -42,7 +42,7 @@ class FrontendBuilder extends ContainerAware {
             ->addChild('menu.frontend.develop', array('route' => 'tarifs'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.tarifs']
-            ->addChild('menu.frontend.copywriting', array('uri' => '#'))
+            ->addChild('menu.frontend.copywriting', array('route' => 'tarifs'))
             ->setExtra('translation_domain', 'WebBundle');
         $menu['menu.frontend.tarifs']
             ->setLinkAttributes(array ());
@@ -53,8 +53,8 @@ class FrontendBuilder extends ContainerAware {
             ->setChildrenAttributes(array ('class'=>'dropdown-menu'));
         $menu
             ->addChild('menu.frontend.order', array('route' => 'order_new'))
-            ->setExtra('translation_domain', 'WebBundle');
-
+            ->setExtra('translation_domain', 'WebBundle')
+            ->setLinkAttribute('class','btn btn-primary btn-lg btn-order');
         return $menu;
     }
 
@@ -69,15 +69,17 @@ class FrontendBuilder extends ContainerAware {
         $menu->setChildrenAttribute('class', 'nav')
             ->addChild('Дизайн', array('uri' => '#1'));
         $menu
-            ->addChild('Разделы сайта', array('uri' => '#2'));
+            ->addChild('Типы структуры', array('uri' => '#2'));
         $menu
-            ->addChild('Поисковая оптимизация', array('uri' => '#3'));
+            ->addChild('Разделы сайта', array('uri' => '#3'));
         $menu
-            ->addChild('Социальные сети', array('uri' => '#4'));
+            ->addChild('Поисковая оптимизация', array('uri' => '#4'));
         $menu
-            ->addChild('Интерактив', array('uri' => '#5'));
+            ->addChild('Социальные сети', array('uri' => '#5'));
         $menu
-            ->addChild('Управление сайтом', array('uri' => '#6'));
+            ->addChild('Интерактив', array('uri' => '#6'));
+        $menu
+            ->addChild('Управление сайтом', array('uri' => '#7'));
 
         return $menu;
     }

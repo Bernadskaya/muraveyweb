@@ -18,11 +18,9 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
- {% stylesheets 'bundles/web/css/*' filter='cssrewrite'%}
+    {% stylesheets 'bundles/web/css/*' filter='cssrewrite'%}
     <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
-
-
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,7 +33,7 @@
     {% block header %}
         <header id="header" class="navbar">
             <div class="container">
-                <div class="row">
+                <div class="row topinfo">
                     <div class="col-sm-12 col-md-6 pull-left"><span class="text-muted">Сервис создания современных сайтов</span></div>
                     <div class="col-sm-12 col-md-6 pull-right text-right"><span class="text-muted">+7 905 500 12 31</span></div>
                 </div>
@@ -46,7 +44,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand logo" href="/">MuraveyWeb</a>
+                    <a class="navbar-brand logo" href="{{ path ('ad') }}">MuraveyWeb</a>
                 </div>
                 <nav class="collapse navbar-collapse" role="navigation">
                     {{ knp_menu_render('WebBundle:FrontendBuilder:mainMenu', {'depth': 2, 'currentAsLink': false}) }}
@@ -55,11 +53,11 @@
         </header><!-- .navbar-fixed-top -->
     {% endblock %}
 
-        {% block content %}{% endblock %}
+    {% block content %}{% endblock %}
 
-        {% block footer %}
-            {% include 'WebBundle:Ad:footer.html.twig' %}
-        {% endblock %}
+    {% block footer %}
+        {% include 'WebBundle:Ad:footer.html.twig' %}
+    {% endblock %}
 
 {% endblock %}
 {% block javascripts %}
