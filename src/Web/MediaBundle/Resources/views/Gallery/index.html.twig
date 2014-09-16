@@ -1,44 +1,21 @@
 {% extends 'WebBundle::layout.html.twig' %}
 {% block content %}
-
     <div class="page-top">
         <div class="container">
             <h1 class="page-top-header">Портфолио</h1>
             <ol class="breadcrumb">
-                <li><a href="{{ path ('ad') }}">Главная</a></li>
+                <li><a href="/">Главная</a></li>
                 <li class="active">Примеры</li>
             </ol>
         </div>
     </div>
-
     <div class="container" id="main">
-
         <h4>Примеры готовых сайтов</h4>
-
-        <ul class="portfolio-filter list-inline">
-            <li class="active"><a href="#" data-filter="*">Все</a></li>
-            <li><a href="#" data-filter=".consulting">Шаблоны</a></li>
-            <li><a href="#" data-filter=".social-media">Клиенты</a></li>
-        </ul>
-
         <div class="row">
             <ul class="portfolio columns3">
                 {% for gallery in galleries %}
-
-                    <li class="consulting">
-                        <a href="{{ url('sonata_media_gallery_view', {'id' : gallery|sonata_urlsafeid }) }}">
-
-                            {{ render(controller('AntMediaBundle:Gallery:thumb', { 'id': gallery|sonata_urlsafeid } )) }}
-                            <span class="type">Consulting</span>
-                            <span class="portfolio-item-content">
-						        <span class="header">
-                                    {{ gallery.name }}
-                                </span>
-                                <span class="body">
-                                             <p></p>
-                                </span>
-					        </span>
-                        </a>
+                    <li>
+                        {{ include('WebMediaBundle:Gallery:_link_name.html.twig') }}
                     </li>
                 {% endfor %}
             </ul>

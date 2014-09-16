@@ -49,3 +49,11 @@ $(document).ready(function($){
     });
 
 });
+
+//табы
+$(document).ready(function($){
+$('#myTab li a').click(function (e) {
+e.preventDefault()
+$(this).tab('show')
+})
+});

@@ -2,9 +2,8 @@ ant:
     resource: "@AntWebBundle/Resources/config/routing.yml"
     prefix:   /
 
-
 gallery:
-    resource: '@SonataMediaBundle/Resources/config/routing/gallery.xml'
+    resource: '@AntMediaBundle/Resources/config/routing/gallery.yml'
     prefix: /media/gallery
 
 media:

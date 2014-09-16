@@ -1,53 +1,55 @@
-{% extends 'AntWebBundle::layout.html.twig' %}
-
+{% extends 'WebBundle::layout.html.twig' %}
+{% block title %}Статьи и новости о разработке, создании и продвижении web-сайтов - MuraveyWeb{% endblock %}
 {% block content %}
-{% trans_default_domain "AntWebBundle" %}
-
-    {% set menuItem = knp_menu_get('AntWebBundle:FrontendBuilder:mainMenu').getBreadcrumbsArray() %}
-
-    {{ knp_menu_render(menuItem) }}
-
-
-    <div class="breadcrumb">
-        <a href="{{ path('news') }}">
-            {{ 'news.back'|trans }}
-        </a>
+    {% trans_default_domain "AntWebBundle" %}
+    <div class="page-top">
+        <div class="container">
+            <h1 class="page-top-header">{{ 'news.list'|trans }}</h1>
+            <ol class="breadcrumb">
+                <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <li><a href="/" itemprop="url"><span itemprop="title">Главная</span></a></li>
+                    </div>
+                <li class="active">{{ 'news.list'|trans }}</li>
+            </ol>
+        </div>
     </div>
-    <h1>{{ 'news.list'|trans }}</h1>
-
-
-    <ul class="media-list">
-        {% for entity in pagination %}
-
-            <li class="media">
-                <a href="{{ path('ant_news_show', { 'slug': entity.slug, 'id': entity.id }) }}" class="pull-left">
-                    <img src="{{ entity.getWebPath | imagine_filter('my_thumb_out')  }}" class="img-rounded img-responsive media-object" /></a>
-
-                <div class="media-body">
-                    <div class="text-muted">
-                        {% if entity.created %}
-                            {{ entity.created|date('d.m.y H:i') }}
-                        {% endif %}
+    <div class="container" id="main">
+        <div id="blog-home" class="row">
+            {% for entity in pagination %}
+                <article>
+                    <div class="row">
+                        <div class="post-meta-side col-sm-3 col-md-2">
+                            <div class="date">
+                                {% if entity.created %}
+                                    <span class="month">{{ entity.created|date('M') }}</span>
+                                    <span class="day">{{ entity.created|date('d') }}</span>
+                                    <span class="year">{{ entity.created|date('Y') }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="post-content col-sm-9 col-md-10">
+                            <div class="post-intro">
+                                <img src="{% path entity.getMedia, 'gallery' %}" alt="" />
+                            </div>
+                            <h2 class="hr2 blog-post-title text-center"><a href="{{ path('ant_news_show', { 'slug': entity.slug, 'id': entity.id }) }}">{{ entity.title }}</a></h2>
+                            <div class="post-excerpt">
+                                {{ entity.description }}
+                               <div> <a href="{{ path('ant_news_show', { 'slug': entity.slug, 'id': entity.id }) }}" class="btn btn-default btn-sm">{{ 'news.read'|trans }}</a>
+                               </div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="media-heading">
-                        {{ entity.title }}
-                    </h2>
-                    <div class="lead">
-                        {{ entity.description }}
-                    </div>
-
-                    <div>
-                        <a href="{{ path('ant_news_show', { 'slug': entity.slug, 'id': entity.id }) }}"> {{ 'news.read'|trans }}</a>
-                    </div>
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-    <div class="navigation">
-        {{ knp_pagination_render(pagination) }}
+                </article>
+            {% endfor %}
+        </div>
     </div>
-
-
-    {% endblock %}
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+            <ul class="pager">
+                {{ knp_pagination_render(pagination) }}
+            </ul>
+        </div>
+    </div>
+{% endblock %}
 
 

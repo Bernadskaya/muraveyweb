@@ -1,14 +1,12 @@
-
 <div id="carousel" class="carousel slide">
-    <!-- Wrapper for slides -->
     <div class="carousel-inner">
-        {% for entity in entities %}
-            {% if entity.getAdGroup.id == '1'  %}
-                {% if loop.first %}
-                    <div class="item active">
-                        <img src="{{ asset('bundles/web/img/slider.jpg') }}" class="animated fadeIn 050s" alt="" />
-                        <div class="carousel-content">
-                            <div class="container">
+        {% for entity in entities if entity.getAdGroup.id == '1' %}
+            {% if loop.first %}
+                <div class="item active">
+                    <img src="{{ asset('bundles/web/img/slider.png') }}" class="animated fadeIn 050s" alt="" />
+                    <div class="carousel-content">
+                        <div class="container">
+                            <a href="{{ entity.url }}">
                                 <div>
                                     <h1 class="carousel-header col-xs-12 col-sm-12 col-md-12 animated bounceInUp delay075s  text-center">
                                         {{ entity.title }}
@@ -17,16 +15,16 @@
                                 <div class="carousel-body col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay2s">
                                     {{ entity.text |raw('html') }}
                                 </div>
-                                <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">
-                            </div>
-
+                            </a>
                         </div>
                     </div>
-                {% else %}
-                    <div class="item ">
-                        <img src="{{ asset('bundles/web/img/slider.jpg') }}" class="animated fadeIn 050s" alt="" />
-                        <div class="carousel-content">
-                            <div class="container">
+                </div>
+            {% else %}
+                <div class="item">
+                    <img src="{{ asset('bundles/web/img/slider.png') }}" class="animated fadeIn 050s" alt="" />
+                    <div class="carousel-content">
+                        <div class="container">
+                            <a href="{{ entity.url }}">
                                 <div>
                                     <h1 class="carousel-header col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay075s col-md-12 text-center">
                                         {{ entity.title }}
@@ -35,22 +33,17 @@
                                 <div class="carousel-body col-xs-12 col-sm-12 col-md-12 animated bounceInDown delay2s">
                                     {{ entity.text |raw('html') }}
                                 </div>
-                                <img src="{% path entity.getMedia, 'thumb' %}" class="animated bounceInUp delay3s ant-ad">
-                            </div>
+                            </a>
                         </div>
                     </div>
-
-                {% endif %}
+                </div>
             {% endif %}
-
         {% endfor %}
     </div>
-    <!-- Controls -->
     <a class="left carousel-control" href="#carousel" data-slide="prev">
-        <i class="icon-angle-left"></i>
+        <i class="fa fa-angle-left"></i>
     </a>
     <a class="right carousel-control" href="#carousel" data-slide="next">
-        <i class="icon-angle-right"></i>
+        <i class="fa fa-angle-right"></i>
     </a>
-
 </div>

@@ -1,0 +1,21 @@
+<div class="bg-g-icon">
+    <div class="container">
+        {% for entity in entities if entity.getAdGroup.id == '6'  %}
+            {% if loop.first %}
+                <h1 class="text-center margin-large">{{ entity.getAdGroup.title }}</h1>
+            {% endif %}
+        {% endfor %}
+        <div class="section-large">
+            {% for entity in entities if entity.adgroup.id == '6' %}
+                <div class="col-sm-12 col-md-3 text-center">
+                    <div class="round-icon">
+                        <span class="{{ entity.icon }}"></span>
+                    </div>
+                    <div>
+                        <h3>{{ entity.title }}</h3>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

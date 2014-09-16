@@ -1,0 +1,40 @@
+<div id="fb-root"></div>
+<aside class="col-sm-4 col-md-3 col-md-offset-1">
+    <div id="blog-sidebar" class="affix" role="complementary">
+    <ul>
+        {#<li class="social-networks">#}
+            {#<a href=""><i class="icon-facebook"></i></a>#}
+            {#<a href=""><i class="icon-twitter"></i></a>#}
+            {#<a href=""><i class="icon-google-plus"></i></a>#}
+            {#<a href=""><i class="icon-rss"></i></a>#}
+        {#</li>#}
+        <li class="widget-recent-comments">
+
+            <h4 class="widget-title hr2">Читайте также</h4>
+            <ul>
+            {% for item in otherNews %}
+                    <li><a href="{{ path('ant_news_show', { 'slug': item.slug, 'id': item.id }) }}"></a>
+                        <img src="{% path item.getMedia, 'other' %}" alt="" />
+                        <h5>{{ item.title }}</h5>
+                        <div>{{ item.description }}</div>
+                        </a>
+                        <a href="{{ path('ant_news_show', { 'slug': item.slug, 'id': item.id }) }}" class="btn btn-default">Читать дальше</a>
+                        </li>
+            {% endfor %}
+            <li class="text-center">
+                <h4 class="widget-title hr2">Нужен хороший сайт?</h4>
+                <p>Запустите сайт на сервисе MuraveyWeb.</p>
+                <p><a href="/order/new" class="btn btn-primary">Отправьте заявку</a></p>
+                <p>на <strong>бесплатную</strong> подготовку структуры и технического задания
+                или</p>
+                <a href="/webmodules" class="btn btn-success"> узнайте о нас больше</a>
+            </li>
+            </ul
+        </li>
+<li>
+    <div class="fb-follow" data-href="https://www.facebook.com/muraveyweb" data-width="240" data-height="240" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
+</li>
+    </ul>
+        </div>
+</aside>
+

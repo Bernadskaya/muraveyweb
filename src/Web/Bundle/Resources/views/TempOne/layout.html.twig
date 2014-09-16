@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Olin &middot; Home</title>
+    <link rel="icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts (more: http://www.google.com/fonts) -->
+    <!-- Headings -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+       <!-- Countdown, Pricing Table Price Tag -->
+    <link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <!-- Logo -->
+    <link href="http://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet" type="text/css">
+
+    <!-- CDN Bootstrap & FontAwesome -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    {% stylesheets 'web/public/css/TempOne/*' filter='cssrewrite'  %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/animate.min.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/bxslider.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/TempOne/supersized.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/TempOne/supersized.shutter.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/TempOne/custom.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/TempOne/default.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets '@WebBundle/Resources/public/css/TempOne/styles.css' filter='cssrewrite' filter='yui_css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="{{ asset('bundles/web/js/html5shiv.js') }}"></script>
+    <script src="{{ asset('bundles/web/js/respond.min.js' )}}"></script>
+    <link href="{{ asset('bundles/web/css/ie8.css' ) }}" rel="stylesheet">
+    <![endif]-->
+
+</head>
+<body>
+<div class="body-wrapper">
+<div class="mask"></div>
+<header id="header" class="navbar">
+
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Skip navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="/">Шаблон</a>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#">
+                        Услуги
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">Решение проблем
+                            </a></li>
+                        <li><a href="contact.html">VIP обслуживание</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Цены</a>
+                </li>
+                <li>
+                    <a href="#">
+                        О нас
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Новости</a>
+
+                </li>
+                <li>
+                    <a href="#">Купить</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</header><!-- .navbar-fixed-top -->
+<!-- Slider Controller -->
+<div id="controls-wrapper" class="load-item">
+    <div id="controls">
+        <a id="prevslide" class="load-item"></a>
+        <a id="nextslide" class="load-item"></a>
+    </div>
+</div>
+
+<div class="container">
+<div class="jumbotron gradient">
+    <h1>
+        Увеличьте продажи
+    </h1>
+    <p>
+        Привлекайте клиентов инетересными акциями
+    </p>
+    <a class="btn btn-lg">Оформить заявку</a>
+</div>
+
+
+<div class="iconbox section-small wrapper">
+    <div class="row">
+        <div class="col-lg-4">
+            <i class="icon-cogs icon-2x"></i>
+            <h5 class="header">Решим проблемы            </h5>
+            <p class="content">
+                Расскажите клиентам о ваших <span class="color">услугах</span> и продуктах.
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <i class="icon-magic icon-2x"magic></i>
+            <h5 class="header">Все сделаем за вас
+            </h5>
+            <p class="content">
+                Расскажите клиентам о ваших <span class="color">услугах</span> и продуктах.
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <i class="icon-bullhorn icon-2x"></i>
+            <h5 class="header">Развлечем бесплатно</h5>
+            <p class="content">
+                Расскажите клиентам о ваших <span class="color">услугах</span> и продуктах.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="section-large wrapper">
+    <h3 class="text-center margin-bottom-large header"><strong>Портфолио:</strong> расскажите о ваших работах</h3>
+    <div class="row">
+        <ul class="portfolio columns3">
+            <li class="consulting">
+                <a href="single-project-gallery.html">
+                    <img src="http://placehold.it/600x400&text=Project+1" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="social-media">
+                <a href="single-project-slider.html">
+                    <img src="http://placehold.it/600x400&text=Project+2" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Другая фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к другой фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="mobile">
+                <a href="single-project-slider-full-width.html">
+                    <img src="http://placehold.it/600x400&text=Project+3" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="consulting">
+                <a href="single-project-gallery.html">
+                    <img src="http://placehold.it/600x400&text=Project+4" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Другая фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к другой фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="social-media">
+                <a href="single-project-slider.html">
+                    <img src="http://placehold.it/600x400&text=Project+5" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="mobile">
+                <a href="single-project-slider-full-width.html">
+                    <img src="http://placehold.it/600x400&text=Project+6" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Другая фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к другой фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="consulting">
+                <a href="single-project-gallery.html">
+                    <img src="http://placehold.it/600x400&text=Project+7" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="social-media">
+                <a href="single-project-slider.html">
+                    <img src="http://placehold.it/600x400&text=Project+8" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Другая фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к другой фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+            <li class="mobile">
+                <a href="single-project-slider-full-width.html">
+                    <img src="http://placehold.it/600x400&text=Project+9" alt="" />
+						<span class="portfolio-item-content">
+							<span class="header">Фотогалерея</span>
+							<span class="body">
+								<p>
+                                    Описание к фотогалерее.
+                                </p>
+							</span>
+						</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="section-large wrapper">
+    <h3 class="text-center margin-bottom-large header"><strong>Цены:</strong> наглядные таблицы</h3>
+    <div class="pricing row">
+        <div class="col-md-4">
+            <ul>
+                <li class="title-row">Стандарт</li>
+                <li class="pricing-row">
+                    <span class="price">500 р.</span><br />
+                    <span>мес</span>
+                </li>
+                <li class="simple-row">5 пряников</li>
+                <li class="simple-row">Опция "Дырка от бубулика"</li>
+                <li class="simple-row">Сахарок</li>
+                <li class="button-row">
+                    <a href="#">Оформить заявку</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="title-row">Премиум</li>
+                <li class="pricing-row">
+                    <span class="price">150 р.</span><br />
+                    <span>мес</span>
+                </li>
+                <li class="simple-row">30 пряников</li>
+                <li class="simple-row">Две дырки от бублика</li>
+                <li class="simple-row">Кнут мармеладный</li>
+                <li class="button-row">
+                    <a href="#">Оформить заявку</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="title-row">Профессиональный</li>
+                <li class="pricing-row">
+                    <span class="price">250 р.</span><br />
+                    <span>мас</span>
+                </li>
+                <li class="simple-row">Миллион дырок от бубликов</li>
+                <li class="simple-row">Коллекция фантиков</li>
+                <li class="simple-row">Палочки от мороженого</li>
+                <li class="button-row">
+                    <a href="#">Оформить заявку</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Pricing Tables -->
+</div>
+
+<div class="section-large wrapper">
+    <h3 class="text-center margin-bottom-large header"><strong>Контакты:</strong> будьте на связи</h3>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="map" id="map"></div>
+
+        <div class="contact-info">
+            <p class="man">
+                МуравейWeb
+            </p>
+            <p class="phone">
+                Тел.:  7 905 500 12 31 <br />
+                Факс:  7 905 500 12 31
+            </p>
+            <p class="envelop">
+                Email: <a href="#">info@muraveyweb.ru</a><br />
+                Web: <a href="#">www.muraveyweb.ru</a>
+            </p>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post" id="contactForm" name="contactForm">
+                <div class="form">
+                    <label>Имя*</label>
+                    <div class="input">
+                        <span class="name"></span>
+                        <input type="text" class="name"  name="yourname" id="yourname" />
+                    </div>
+                </div>
+                <div class="form">
+                    <label>Email*</label>
+                    <div class="input">
+                        <span class="email"></span>
+                        <input type="text" class="name"  name="email" id="email" />
+                    </div>
+                </div>
+                <div class="form">
+                    <label>Телефон*</label>
+                    <div class="input">
+                        <span class="website"></span>
+                        <input type="text" class="name" name="tele" id="tele"/>
+                    </div>
+                </div>
+                <div class="form">
+                    <label>Сообщение*</label>
+                    <textarea name="message" rows="10" cols="20"></textarea>
+                </div>
+                <div class="form2">
+                    <input type="submit" class="send-message" value="Отправить" />
+                </div>
+
+            </form>
+
+            <div class="alertMessage"></div>
+        </div>
+
+
+    </div>
+    <!-- /Contact -->
+
+    <div class="well">ntrcn</div>
+</div>
+
+</div>
+<!-- .container -->
+
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <p class="copyright">Все права защищены 2014. Разработано в <a href="http://www.muraveyweb.ru">MuraveyWeb</a></p>
+            <ul class="social">
+                <li><span>Следите за нами:</span></li>
+                <li class="facebook"><a href="#"></a></li>
+                <li class="twitter"><a href="#"></a></li>
+                <li class="google"><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="scrollToTop">
+    <i class="icon-angle-up icon-2x"></i>
+</a>
+
+</div>
+<!-- JavaScript Libraries & jQuery Plugins -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+{% javascripts '@WebBundle/Resources/public/js/*' filter='yui_js'%}
+<script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+
+{#<script src="assets/js/jquery.bxslider.min.js"></script>#}
+{#<script src="assets/js/jquery.isotope.min.js"></script>#}
+{#<script src="assets/js/jquery.fittext.js"></script>#}
+{#<script src="assets/js/jquery.fitvids.js"></script>#}
+<script type="text/javascript" src="{{ asset ('web/public/js/plugin/jquery.form.js') }}"></script>
+{#<script src="assets/js/jquery.magnific-popup.min.js"></script>#}
+{#<script src="assets/js/jquery.hoverdir.js"></script>#}
+{#<script src="assets/js/jquery.easing.min.js"></script>#}
+{#<script src="assets/js/supersized.3.2.7.min.js"></script>#}
+{#<script src="assets/js/supersized.shutter.min.js"></script>#}
+{#<script src="assets/js/validation.js"></script>#}
+{#<script src="assets/js/theme.js"></script>#}
+{#<script src="assets/js/fashion.js"></script>#}
+
+</body>
+</html>

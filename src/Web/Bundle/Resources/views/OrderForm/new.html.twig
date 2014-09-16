@@ -1,7 +1,6 @@
-{% extends 'AntWebBundle::layout.html.twig' %}
-
+{% extends 'WebBundle::layout.html.twig' %}
+{% block title %}Воспользуйтесь консультацией о создании web-сайта MuraveyWeb{% endblock %}
 {% block content %}
-
     <div class="page-top">
         <div class="container">
             <h1 class="page-top-header">Обратная связь</h1>
@@ -14,14 +13,25 @@
     <div class="container" id="main">
         <div class="section-base">
             <div class="row">
-                <h1> {{ 'order.new'|trans({}, 'AntWebBundle') }}</h1>
-                <div class="col-md-6">
+                <h1 class="hr2 text-center"> {{ 'order.new'|trans({}, 'AntWebBundle') }}</h1>
+                <div class="lead text-center">
+                    <p>Отправьте заявку на бесплатное составление технического задания.</p>
+                    <p>Вы можете позвонить нам по телефону +7 499 504 42 78.</p>
+                    <p>Или воспользоваться формой заявки и мы свяжемся с вами сами.</p>
+                    <p><small>Время работы пн-пт 09:00 - 20:00 (часовой пояс - Москва)</small></p>
+                </div>
+                {% for flashMessage in app.session.flashbag.get('notice') %}
+                    <div class="alert alert-success">
+                        {{ flashMessage }}
+                    </div>
+                {% endfor %}
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
                     {{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
                     <div class="form-group">
-                        <div class="col-sm-2">
-                            {{ form_label(form.name, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-3">
+                            {{ form_label(form.name, null, {'label_attr': {'class': 'control-label'}}) }}
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-9">
                             {{ form_widget(form.name,  {'attr': {'class': 'form-control'}}) }}
                         </div>
                         <div class="alert-danger">
@@ -29,12 +39,11 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-
-                            {{ form_label(form.surname, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-3">
+                            {{ form_label(form.surname, null, {'label_attr': {'class': 'control-label'}}) }}
                         </div>
 
-                        <div class="col-sm-10">
+                        <div class="col-sm-9">
                             {{ form_widget(form.surname,  {'attr': {'class': 'form-control'}}) }}
                         </div>
 
@@ -43,10 +52,10 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-                            {{ form_label(form.phone, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-3">
+                            {{ form_label(form.phone, null, {'label_attr': {'class': 'control-label'}}) }}
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-9">
                             {{ form_widget(form.phone,  {'attr': {'class': 'form-control'}}) }}
                         </div>
                         <div class="alert-danger">
@@ -54,10 +63,10 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-                            {{ form_label(form.email, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-3">
+                            {{ form_label(form.email, null, {'label_attr': {'class': 'control-label'}}) }}
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-9">
                             {{ form_widget(form.email,  {'attr': {'class': 'form-control'}}) }}
                         </div>
                         <div class="alert-danger">
@@ -65,10 +74,10 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-                            {{ form_label(form.text, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-3">
+                            {{ form_label(form.text, null, {'label_attr': {'class': 'control-label'}}) }}
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-9">
                             {{ form_widget(form.text,  {'attr': {'class': 'form-control'}}) }}
                         </div>
                         <div class="alert-danger">
@@ -76,10 +85,31 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-                            {{ form_label(form.captcha, null, {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+                        <div class="col-sm-9 col-sm-offset-3">
+                            {% set terms_link %}
+                            <a title="Соглашение об обработке персональных данных" href="" data-toggle="modal" data-target="#myModal">
+                                Соглашение об обработке персональных данных
+                            </a>
+                            {% endset %}
+                            {% set general_terms_and_conditions %}
+                            {{ 'Я принимаю %general_terms_and_conditions%.'|trans({ '%general_terms_and_conditions%': terms_link })|raw }}
+                            {% endset %}
+                            {{ form_widget(form.agreement,  {'attr': {'class': 'form-control'}}) }}
+                            <label for="{{ form.agreement.vars.id }}">{{ general_terms_and_conditions|raw }}</label>
+                            <!-- Modal -->
+                            {{ include('AntWebBundle:OrderForm:agreement.html.twig') }}
                         </div>
-                        <div class="col-sm-10">
+                        {% if form_errors(form.agreement) %}
+                            <div class="alert-danger row">
+                                {{ form_errors(form.agreement) }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-3">
+                            {{ form_label(form.captcha, 'Введите код с картинки', {'label_attr': {'class': 'control-label'}}) }}
+                        </div>
+                        <div class="col-sm-3">
                             {{ form_widget(form.captcha,  {'attr': {'class': 'form-control'}}) }}
                         </div>
                         <div class="alert-danger">
@@ -87,12 +117,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-2">
-
-                            {{ form_label(form.submit, 'Отправить заявку') }}
-                        </div>
-                        <div class="col-sm-offset-2 col-sm-10">
-                            {{ form_widget(form.submit,  {'attr': {'class': 'btn btn-lg btn-primary'}}) }}
+                        <div class="col-sm-offset-3 col-sm-9 text-center">
+                            {{ form_widget(form.submit,  { 'label': 'Отправить заявку' , 'attr': {'class': 'btn btn-lg btn-primary'}}) }}
                         </div>
                     </div>
                     {{ form_end(form) }}
@@ -101,7 +127,9 @@
         </div>
     </div>
 {% endblock %}
-
-
-
-
+{% block javascripts %}
+{{ parent() }}
+    {% javascripts '@WebBundle/Resources/public/js/fb/fb.js' filter='yui_js'%}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,1 @@
+var fb_param={};fb_param.pixel_id="6010727242402";fb_param.value="0.01";fb_param.currency="USD";(function(){var a=document.createElement("script");a.async=true;a.src="//connect.facebook.net/en_US/fp.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();

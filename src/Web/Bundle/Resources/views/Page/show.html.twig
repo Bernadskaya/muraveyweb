@@ -3,6 +3,7 @@
     <meta name="keywords" content="{{ entity.metaKey }}">
     <meta name="description" content="{{ entity.metaDesc }}">
 {% endblock %}
+{% block title %}{{ entity.title }} - MuraveyWeb{% endblock %}
 {% block stylesheets %}
     {{ parent() }}
     {% stylesheets 'bundles/web/css/timeline/*' filter='cssrewrite'%}

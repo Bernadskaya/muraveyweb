@@ -12,3 +12,6 @@ menu:
         portfolio: Примеры
         order: Купить
         standart: Пакет
+        news: Статьи
+form:
+     captcha: Введите код с изображения

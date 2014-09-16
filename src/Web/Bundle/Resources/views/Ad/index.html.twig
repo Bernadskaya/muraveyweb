@@ -1,21 +1,23 @@
 {% extends 'WebBundle::layout.html.twig' %}
+{% block title %}Сервис разработки и поддержки web-сайтов{% endblock %}
+{% block metakeywords %}
+{{ parent() }}
+    <meta name="description" content="MuraveyWeb - сервис разработки сайтов с поддержкой и обновлением движка и модулей.">
+{% endblock %}
 {% block content %}
-    {{ include('AntWebBundle:Ad:id_one.html.twig') }}
-    <div class="container" id="main">
-        {#Не просто сайт#}
+    {{ include('AntWebBundle:Ad:lp.html.twig') }}
+    {#{{ include('AntWebBundle:Ad:id_one.html.twig') }}#}
+    <div class="container">
         {{ include('AntWebBundle:Ad:id_five.html.twig') }}
-        {#Что внутри?#}
         {{ include('AntWebBundle:Ad:id_two.html.twig') }}
-        {#Галерея#}
-        {{ render(controller('AntMediaBundle:Gallery:last', {'max':'10'})) }}
-
-        {#4 шага до сайта#}
+    </div>
+    {{ include('AntWebBundle:Ad:price.html.twig') }}
+    <div class="container">
         {{ include('AntWebBundle:Ad:id_three.html.twig') }}
-
-       {#Ссылка на заявку#}
-        <div class="row">
+        {{ render(controller('AntMediaBundle:Gallery:last', {'max':'10'})) }}
+        <div class="row section-large">
             <div class="text-center">
-                <a href="{{ path ('order_new') }}" class="btn btn-primary btn-lg">Отправить заявку</a>
+                <a href="/order/new" class="btn btn-success btn-lg">Отправить заявку на бесплатное техзадание</a>
             </div>
         </div>
     </div>

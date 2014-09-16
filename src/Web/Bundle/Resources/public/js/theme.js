@@ -122,7 +122,7 @@ $(document).ready(function() {
 	/* Dropdown Menu - Add a caret to each dropdown menu
 	-------------------------*/
 	$('.dropdown-toggle').dropdown();
-	$('.dropdown').not('.header-search-form').find('> a').append('<i class="icon-angle-down"></i>');
+	$('.dropdown').not('.header-search-form').find('> a').append('<i class="fa fa-angle-down"></i>');
 	$('.dropdown > a').prepend('<div class="nav-caret-square"><span></span></div>');
 
 
@@ -162,8 +162,8 @@ $(document).ready(function() {
 	$('.bxslider').bxSlider();	
 	
 	// Multislider: Replace arrows with Icon Font
-	$('.bx-prev').html('<i class="icon-angle-left"></i>');
-	$('.bx-next').html('<i class="icon-angle-right"></i>');
+	$('.bx-prev').html('<i class="fa fa-angle-left"></i>');
+	$('.bx-next').html('<i class="fa fa-angle-right"></i>');
 	
 	
 	/* Magnific Popup v0.9.5 - Lightbox plugin
@@ -223,7 +223,19 @@ $(document).ready(function() {
 	    }
 	  }
 	});
-	
+
+		// Sidebar Affix: Offset from the Top (.affix-top) & Dynamically calculated from the Bottom (.affix-bottom)
+	$('#blog-sidebar').affix({
+	  offset: {
+	  	top: 160,
+			bottom: function () {
+	      return (this.bottom = $('#footer').outerHeight(true))
+	    }
+	  }
+	});
+
+
+
 	
 	/* Blog
 	-------------------------*/	

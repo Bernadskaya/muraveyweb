@@ -1,27 +1,20 @@
-<!-- Что внутри? -->
 <div class="section-large">
     {% for entity in entities if entity.getAdGroup.id == '4'  %}
         {% if loop.first %}
-            <h3 class="hr2 text-center margin-base"><span class="text-muted">{{ entity.getAdGroup.title }}</span></h3>
+            <h1 class="text-center margin-base">{{ entity.getAdGroup.title }}</h1>
         {% endif %}
     {% endfor %}
     <div class="row">
-        {# Bluedrops#}
         <ul class="cbp-ig-grid">
-            {%  for entity in entities  %}
-                {% if entity.getAdGroup.id == '4'  %}
-                    <li>
-                        <a href="#">
-                            <span class="{{ entity.icon }}"></span>
-                            <h3 class="cbp-ig-title">{{ entity.title }}</h3>
-                            <span class="cbp-ig-category">{{ entity.text|raw('html') }}</span>
-                        </a>
-                    </li>
-                {% endif %}
+            {%  for entity in entities if entity.getAdGroup.id == '4'  %}
+                <li>
+                    <a href="{{ entity.url }}">
+                        <span class="{{ entity.icon }}"></span>
+                        <h3 class="cbp-ig-title">{{ entity.title }}</h3>
+                        <span class="cbp-ig-category">{{ entity.text|raw('html') }}</span>
+                    </a>
+                </li>
             {% endfor %}
         </ul>
     </div>
 </div>
-<!-- /Что внутри? -->
-
-

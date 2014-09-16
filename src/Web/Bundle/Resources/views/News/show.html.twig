@@ -1,32 +1,70 @@
-{% extends 'AntWebBundle::layout.html.twig' %}
+{% extends 'WebBundle::layout.html.twig' %}
 {% block metakeywords %}
     <meta name="keywords" content="{{ entity.metaKey }}">
-    <meta name="description" content="{{ entity.metaDesc }}">
+    <meta name="description" content="
+    {% if entity.metaDesc %}
+        {{ entity.metaDesc }}
+    {% else %}
+        {{ entity.description }}
+    {% endif %}
+    ">
 {% endblock %}
+{% block title %}{{ entity.title }} - MuraveyWeb{% endblock %}
 {% block content %}
     {% trans_default_domain "AntWebBundle" %}
-    <div class="breadcrumb">
-        <a href="{{ path('news') }}">
-            {{ 'news.back'|trans }}
-        </a>
-    </div>
-    <div class="text-muted">
-        {{ entity.created|date('d.m.y H:i') }}
-    </div>
-    <div class="media">
-        {% if entity.getWebPath %}
-            <img src="{{ entity.getWebPath | imagine_filter('my_thumb_out')  }}" class="img-rounded img-responsive media-object pull-left" />
-        {% endif %}
-        <div class="media-body">
-            <h1 class="media-heading">{{ entity.title }}</h1>
-            <div class="lead">{{ entity.description }}</div>
-            <div>{{ entity.text |raw('html') }}</div>
+
+    <div class="page-top">
+        <div class="container">
+            <ol class="breadcrumb">
+                <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li>
+                        <a href="/"  itemprop="url">
+                            <span itemprop="title">Главная</span>
+                        </a>
+                    </li>
+                </div>
+                <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li>
+                        <a href="/news" itemprop="url">
+                            <span itemprop="title">Новости</span>
+                        </a>
+                    </li>
+                </div>
+                <li class="active">{{ entity.title }}
+                </li>
+            </ol>
         </div>
-        <div class="text-muted">
-            {{ 'news.updated'| trans({}, 'AntWebBundle') }}  {{ entity.updated|date('d.m.y H:i') }}
+    </div>
+
+    <div class="container" id="main">
+        <div id="blog-post">
+
+            <div class="col-sm-8">
+                <article>
+                    <div class="post-content">
+                        <div class="post-intro">
+                            <img src="{% path entity.getMedia, 'gallery' %}" alt="" />
+                        </div>
+                    </div>
+                    <h2 class="hr2 blog-post-title">{{ entity.title }}</h2>
+                    <p class="lead">
+                        {{ entity.description }}
+                    </p>
+                    {{ entity.text |raw('html') }}
+                    <div class="post-meta">
+                        <span class="date"><i class="icon-time"></i> {{ entity.created|date('d.m.y H:i') }}</span>
+                        <span class="date"><i class="icon-time"></i> {{ entity.updated|date('d.m.y H:i') }}</span>
+                    </div>
+
+                </article>
+            </div>
         </div>
+        {{ render(controller('AntWebBundle:News:other', {'id': entity.id})) }}
     </div>
 {% endblock %}
-
-
-
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts '@WebBundle/Resources/public/js/fb/fb_follow.js' filter='yui_js'%}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
